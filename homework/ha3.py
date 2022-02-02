@@ -2,8 +2,8 @@
 selamlama = "Beden Kitle Indeksi Hesaplama Modulune hosgeldiniz".upper()
 print(selamlama)
 
-kilo    = float(input("Kilonuzu giriniz :"))
-boy     = float(input("Boyunuzu giriniz :"))
+kilo    = float(input("Kilonuzu giriniz :")) #kg
+boy     = float(input("Boyunuzu giriniz :")) #metre
 index   = int(kilo/boy**2)
 
 if index < 25:
